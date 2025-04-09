@@ -7,6 +7,7 @@ const ipcHandle = (): void => window.electron.ipcRenderer.send('ping')
 <template>
   <img alt="logo" class="logo" src="./assets/electron.svg" />
   <div class="creator">Powered by electron-vite</div>
+  <h1>Hello World</h1>
   <div class="text">
     Build an Electron app with
     <span class="vue">Vue</span>
